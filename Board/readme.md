@@ -1,4 +1,7 @@
 board half baked
 transciever nets are incomplete for 2 types
-add a voltage regulator for 5V(and maybe 3V3, or just use a voltage divider)
 overhaul grounding
+
+25/02/2025
+
+added decoupling caps and 3v3 voltage regulator to transciever. gotta update the gateway tho
