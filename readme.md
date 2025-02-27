@@ -1,3 +1,5 @@
 EUNJUNG
 
-WELL WHAT DID U EXPECT 
+WELL WHAT DID U EXPECT
+
+Greetings from master Chief
