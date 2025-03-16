@@ -97,11 +97,12 @@
 	(net 15 "LNSS")
 	(net 16 "5V_2")
 	(net 17 "3V3_2")
+	(net 18 "L5V")
 	(footprint "GateWayProjectLibrary:LoRaType2"
 		(layer "F.Cu")
 		(uuid "0f0cef5a-46b1-44b8-ac87-0b2653bb5678")
-		(at 218.44 68.58 90)
-		(property "Reference" "REF**"
+		(at 217.14 66.5 90)
+		(property "Reference" "LoRaType2"
 			(at 0 -0.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -173,6 +174,17 @@
 			(layer "F.SilkS")
 			(uuid "e3f7c2f3-f3ba-4f0b-9e06-c4e7f19e9577")
 		)
+		(fp_rect
+			(start 11.5 -25.5)
+			(end 14.5 -23)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "6eab6090-1fee-4966-abe1-86399d6c15ec")
+		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 90)
 			(unlocked yes)
@@ -191,6 +203,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 2 "GND")
 			(uuid "6f721e3e-1ca2-4d9f-b388-8c0511d3481c")
 		)
 		(pad "2" thru_hole circle
@@ -199,6 +212,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 6 "DI4")
 			(uuid "069e09a7-6865-43eb-87e4-b6797efcc44c")
 		)
 		(pad "3" thru_hole circle
@@ -207,6 +221,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 10 "DI3")
 			(uuid "d7ecfb5c-68e4-455b-a436-64db1bf69e98")
 		)
 		(pad "4" thru_hole circle
@@ -215,6 +230,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 11 "LSCK")
 			(uuid "b985a450-611d-43d9-b893-dc3eb6b978ad")
 		)
 		(pad "5" thru_hole circle
@@ -223,6 +239,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 12 "LMISO")
 			(uuid "6394a749-e414-43ce-98dc-6dd4e9af613a")
 		)
 		(pad "6" thru_hole circle
@@ -231,6 +248,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 13 "LMOSI")
 			(uuid "210d50a7-ddaf-4696-b18d-0413ee9f0922")
 		)
 		(pad "7" thru_hole circle
@@ -239,6 +257,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 15 "LNSS")
 			(uuid "0ba3e70d-b85c-464a-b9fd-1b548e80c543")
 		)
 		(pad "8" thru_hole circle
@@ -247,6 +266,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 2 "GND")
 			(uuid "fc8556e5-6693-4236-b69a-a155d20d207c")
 		)
 		(pad "9" thru_hole circle
@@ -255,6 +275,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 2 "GND")
 			(uuid "3fe5ffc1-d46e-4ee0-bf31-f5852aaa6e7e")
 		)
 		(pad "10" thru_hole circle
@@ -263,6 +284,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 2 "GND")
 			(uuid "07e11d89-19e5-4522-ba8a-14a6695c26df")
 		)
 		(pad "11" thru_hole circle
@@ -271,6 +293,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 3 "3V3")
 			(uuid "e5f6dffa-1c34-4db1-b7c2-b42cfcb25722")
 		)
 		(pad "12" thru_hole circle
@@ -279,6 +302,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 14 "LRST")
 			(uuid "dbc93cc4-9323-4fd4-977d-f8952ab734da")
 		)
 		(pad "13" thru_hole circle
@@ -287,6 +311,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 7 "DI0")
 			(uuid "55d1a33f-0d5b-4bc7-a614-3e620da86697")
 		)
 		(pad "14" thru_hole circle
@@ -295,6 +320,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 8 "DI1")
 			(uuid "414b3f77-b6c7-4b29-9ffd-cd1f0d654595")
 		)
 		(pad "15" thru_hole circle
@@ -303,6 +329,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 9 "DI2")
 			(uuid "d0c89886-aca2-4d17-a135-7cec273e66a4")
 		)
 		(pad "16" thru_hole circle
@@ -311,6 +338,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 10 "DI3")
 			(uuid "edac11a9-cd4e-41df-ba6f-04e5bd9a5932")
 		)
 	)
@@ -320,8 +348,8 @@
 		(at 190.5 105 180)
 		(descr "RECOM,R78EXX,https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
 		(tags "SIP3 Regulator Module")
-		(property "Reference" "REF**"
-			(at 2.54 3.3 360)
+		(property "Reference" "REGULATOR5V"
+			(at 2.54 3.3 0)
 			(layer "F.SilkS")
 			(uuid "5c8c2c71-e949-4a47-844e-3e02eb5c7b42")
 			(effects
@@ -332,7 +360,7 @@
 			)
 		)
 		(property "Value" "SIP3_11.6x8.5mm"
-			(at 2.54 -8 360)
+			(at 2.54 -8 0)
 			(layer "F.Fab")
 			(uuid "c4729c05-354a-49cb-b56b-0bec35e131aa")
 			(effects
@@ -513,7 +541,7 @@
 			(uuid "15e77b20-2828-4179-8ab1-6c4b56ba0238")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -2.7 360)
+			(at 2.54 -2.7 0)
 			(layer "F.Fab")
 			(uuid "60b2849f-99ef-4550-b5c3-ba24d252385c")
 			(effects
@@ -562,11 +590,175 @@
 			)
 		)
 	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "33f4d6a9-a340-4230-a543-4a2096ff8463")
+		(at 181 72)
+		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "solderjump5V"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "364c1a16-b0b0-4dd8-89f5-d48c75595307")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "8f8d32a6-ff07-4819-959e-00b8c9b9e60d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3d0bc79-59c5-4899-ac78-44973d4655c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8f18d6c-6cd9-41da-8c7c-ff6b62eb3cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bc83625-0983-42d2-a452-0cc81515a0fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(zone_connect 1)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b8cce37e-1451-4189-9127-1f6234c09e6b")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2a05176d-79ca-4694-8cb8-47a197701e5c")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7762cac-712a-490f-b3a4-c33ab87bc371")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "204ec864-2b66-4b41-a507-4a39a87f0cf2")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0aa91c4-6c34-4cd4-a915-e50caa631785")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0c978a6-2292-4b71-984d-03379a5f18d1")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ce1af751-e87a-43e2-b601-f7a42fbb2b45")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f1a7ea9-e53e-492e-8bef-24bac3310b87")
+		)
+		(pad "1" smd rect
+			(at -0.65 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 18 "L5V")
+			(uuid "392802bf-e730-4155-b327-b8160a2004b9")
+		)
+		(pad "2" smd rect
+			(at 0.65 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 1 "5V")
+			(uuid "de4fa978-a65d-4471-bdb5-75e560d65170")
+		)
+	)
 	(footprint "GateWayProjectLibrary:ESP32C6"
 		(layer "F.Cu")
 		(uuid "68dbae09-5bc1-4a0e-bf2a-4a7e6e12d2f3")
 		(at 224.78 113.3)
-		(property "Reference" "REF**"
+		(property "Reference" "ESP32C6"
 			(at -20.28 0 90)
 			(layer "F.SilkS")
 			(uuid "1428b6fd-3f7f-4b63-bba1-31b867d7a33b")
@@ -861,6 +1053,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 6 "DI4")
 			(uuid "d0c45901-5400-4927-8e80-d8e16535b4d9")
 		)
 		(pad "1" thru_hole circle
@@ -869,6 +1062,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 10 "DI3")
 			(uuid "5cb7c8d2-44f2-4a76-aeed-129b1ed81821")
 		)
 		(pad "2" thru_hole circle
@@ -902,6 +1096,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 13 "LMOSI")
 			(uuid "deacb50e-bd96-4815-ab51-1a9f479c540c")
 		)
 		(pad "5" thru_hole circle
@@ -936,6 +1131,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 12 "LMISO")
 			(uuid "b6c84d98-b733-4807-bcd7-b4c2960ab28b")
 		)
 		(pad "7" thru_hole circle
@@ -952,6 +1148,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 9 "DI2")
 			(uuid "5748149d-5c6c-47df-bfd2-0f21f658f422")
 		)
 		(pad "9" thru_hole circle
@@ -968,6 +1165,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 8 "DI1")
 			(uuid "d60ae0db-e522-419a-ad1c-36ae6f96f5e6")
 		)
 		(pad "11" thru_hole circle
@@ -976,6 +1174,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 7 "DI0")
 			(uuid "28fc13e2-48b8-4c04-914e-36e15a5648f5")
 		)
 		(pad "12" thru_hole circle
@@ -1008,6 +1207,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 14 "LRST")
 			(uuid "92971b4e-e3b7-4280-8985-9c13143461b9")
 		)
 		(pad "19" thru_hole circle
@@ -1024,6 +1224,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 11 "LSCK")
 			(uuid "795b0723-e09b-4343-82bd-b35dc26e83c8")
 		)
 		(pad "21" thru_hole circle
@@ -1040,6 +1241,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 15 "LNSS")
 			(uuid "da134d2e-f2fe-4c35-988b-0843eb2f689c")
 		)
 		(pad "23" thru_hole circle
@@ -1106,7 +1308,7 @@
 		(layer "F.Cu")
 		(uuid "72a25edd-5ccd-4fd6-9e43-c7c3e88da382")
 		(at 231.14 83.82)
-		(property "Reference" "REF**"
+		(property "Reference" "LoRaType1"
 			(at 2.54 -5.54 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1196,6 +1398,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 7 "DI0")
 			(uuid "cb128184-087b-496b-a644-4f4f7172e29b")
 		)
 		(pad "2" thru_hole circle
@@ -1204,6 +1407,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 13 "LMOSI")
 			(uuid "2e3f3534-1ba9-4181-b9f1-083fb67b393f")
 		)
 		(pad "3" thru_hole circle
@@ -1212,6 +1416,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 15 "LNSS")
 			(uuid "e2250a44-ebd6-46ae-ae79-21244cd00ed9")
 		)
 		(pad "4" thru_hole circle
@@ -1220,6 +1425,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 3 "3V3")
 			(uuid "32a521af-dd38-4512-bfcd-2e9b4333641a")
 		)
 		(pad "5" thru_hole circle
@@ -1228,6 +1434,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 12 "LMISO")
 			(uuid "2474fe8f-e384-40a2-832b-a9c9f0b6f1e8")
 		)
 		(pad "6" thru_hole circle
@@ -1236,6 +1443,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 11 "LSCK")
 			(uuid "3978d57d-ca0c-453f-bd12-afcfc3d1482b")
 		)
 		(pad "7" thru_hole circle
@@ -1244,6 +1452,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 14 "LRST")
 			(uuid "e33ef55a-279e-451d-a5ff-c202d0b70c86")
 		)
 		(pad "8" thru_hole circle
@@ -1252,6 +1461,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
+			(net 2 "GND")
 			(uuid "ed29e464-4f8f-4cbb-97d7-09b3888c3c16")
 		)
 	)
@@ -1261,7 +1471,7 @@
 		(at 208.26 131.12)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "REF**"
+		(property "Reference" "C1_1206_10uf"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "2dab8d28-9653-4c04-9592-e781bc897385")
@@ -1468,7 +1678,7 @@
 		(at 186.475 91.5)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "REF**"
+		(property "Reference" "C2_1206_10nf"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "f92f4265-5e15-4811-844e-e57ba1ad8d3d")
@@ -1675,7 +1885,7 @@
 		(at 228.6 132.08)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "REF**"
+		(property "Reference" "R1_1206"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "11214657-575f-42ed-b990-b043942ab2c0")
@@ -1877,7 +2087,7 @@
 		(layer "F.Cu")
 		(uuid "e1e03f31-604f-4011-a0d5-a81d2b08a4a0")
 		(at 172.72 81.28)
-		(property "Reference" "REF**"
+		(property "Reference" "LoRaType3"
 			(at 0 -0.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -1949,18 +2159,6 @@
 			(layer "F.SilkS")
 			(uuid "feb15db4-d57a-4df7-a962-f48e2d9ca82f")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 2.5 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "f54404ba-789c-43a6-90e9-3ae33f75b4d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole circle
 			(at -7.62 -2.54)
 			(size 1.524 1.524)
@@ -2030,7 +2228,7 @@
 			(drill 0.762)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 1 "5V")
+			(net 18 "L5V")
 			(uuid "6c1afbaf-e229-4b12-b855-79d41c780e18")
 		)
 		(pad "9" thru_hole circle
@@ -2094,7 +2292,7 @@
 		(at 228.6 137.16)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "REF**"
+		(property "Reference" "R2_1206"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "26535692-c46b-4823-bb99-286f9e6871e0")
@@ -2298,7 +2496,7 @@
 		(at 238 136 180)
 		(descr "DC Barrel Jack")
 		(tags "Power Jack")
-		(property "Reference" "REF**"
+		(property "Reference" "BarrelJack_Horizontal"
 			(at -8.45 5.75 0)
 			(layer "F.SilkS")
 			(uuid "ffc4ff87-7620-4662-816d-7aafd393f503")
@@ -2685,7 +2883,7 @@
 		(at 186.475 97)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "REF**"
+		(property "Reference" "C2_1206_10uf"
 			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "fcf57f68-7162-41a8-8f7f-9576a05f7846")
@@ -2897,8 +3095,8 @@
 		(layer "Edge.Cuts")
 		(uuid "36f48726-798c-4833-b737-723465610b3b")
 	)
-	(gr_text "NOTE:ADD FERRITE BEADS, CAPACITORS NEAR THE LORA AND EXT DC POW FOR NOISE SEPERATION"
-		(at 31 33.5 0)
+	(gr_text "NOTE:ADD FERRITE BEADS, GROUND PLANES ETC ALSO COMMON GROUNDS FOR TRANSCIEVER\n"
+		(at 150.5 41 0)
 		(layer "F.Cu")
 		(uuid "1a54da11-0c03-401b-b1bf-f1192ba8116e")
 		(effects
@@ -3184,6 +3382,62 @@
 				(thickness 0.2)
 			)
 			(justify left top)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "c4968597-1637-41b4-ae27-c7449672736a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 218 54) (xy 218 79.5) (xy 222.5 79.5) (xy 222.5 54)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "eb86d6ba-9417-4dff-b3bf-199a0f8e87f3")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 183.5 56) (xy 183.5 80.5) (xy 186 80.5) (xy 186 56)
+			)
 		)
 	)
 	(group "group-boardCharacteristics"
