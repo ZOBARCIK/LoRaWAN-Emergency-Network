@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -35,6 +35,8 @@
       "ratsnest",
       "grid",
       "footprints_front",
+      "footprints_back",
+      "footprint_values",
       "footprint_references",
       "tracks",
       "drc_errors",
@@ -56,7 +58,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "InterfaceBoard_Gateway.kicad_prl",
+    "filename": "InterfaceBoard_Transciever3.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -85,16 +87,16 @@
       9
     ],
     "col_widths": [
-      97,
-      171,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      1327
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -105,8 +107,8 @@
     "group_by_netclass": false,
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
-    "sort_ascending": false,
-    "sorting_column": 1
+    "sort_ascending": true,
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
