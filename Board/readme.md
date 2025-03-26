@@ -1,11 +1,8 @@
+boards are done
 
+1 gateway board for concentrator module, featuring a female sma connector and extra debug holes for esp32
 
-25/02/2025
+3 transciever boards for different type of lora packets
 
-added decoupling caps and 3v3 voltage regulator to transciever. gotta update the gateway tho
-
-26/03/2025
-
-after many commits and heart breakes, I finished the gateway board, tho I had to split the transciever board by module type because kicad is a bitch and will try to route around the rule zone even if it takes like 10km of copper trace or smth
-
-type 2 and 3 transcievers are incomplete, rest is done
+--possible improvements
+instead of through hole lora components, solder the chips directly onto board for production. also could find esp32 dev modules without presoldered pins and do the same
