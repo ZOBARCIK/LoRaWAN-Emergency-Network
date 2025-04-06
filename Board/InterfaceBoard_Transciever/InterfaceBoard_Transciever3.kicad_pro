@@ -278,7 +278,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber_drill_type3/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
