@@ -1,0 +1,55 @@
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Devcontainer settings
+.devcontainer/
+
+# Ignore build artifacts
+/build/
+/*.elf
+/*.bin
+/*.map
+
+# Ignore sdkconfig auto-generated files
+/sdkconfig
+/sdkconfig.old
+
+# Ignore environment folders
+/.vscode/
+/.idea/
+*.code-workspace
+
+# Ignore temporary files
+*.pyc
+*.pyo
+*.pyd
+*.o
+*.obj
+*.exe
+*.log
+*.out
+*.a
+*.d
+*.DS_Store
+
+# Ignore ESP-IDF tools
+/.venv/
+/dist/
+/__pycache__/
+/*.tmp
+*.bak
+
+# Ignore flash download logs
+flash_download.cfg
+
+# Ignore generated IDF files
+.project
+.cproject
+.settings/
+.ipch/
+*.launch
+*.sublime-workspace
+*.sublime-project
+
+# Ignore ESP-IDF managed components (optional if you don't want to version them)
+/managed_components/
