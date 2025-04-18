@@ -53,3 +53,6 @@ flash_download.cfg
 
 # Ignore ESP-IDF managed components (optional if you don't want to version them)
 /managed_components/
+
+dependencies.lock
+sdkconfig
